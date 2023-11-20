@@ -1,0 +1,82 @@
+main {
+    margin-top: 14rem;
+}
+
+.marseille-image {
+    background-image: url(image/histoire-marseille.jpg);
+    min-height: 75vh;
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+}
+
+.marseille-image h1 {
+    min-height: 75vh;
+}
+
+.intro {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.image-marseille {
+    gap: 1rem;
+}
+
+.image-marseille img {
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+}
+
+.test {
+    background-color: #CCE9F7;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.panier {
+    position: absolute;
+}
+
+
+
+
+@media screen and (max-width: 860px) {
+    .marseille-image {
+        margin: 0;
+        padding: 0;
+        min-height: 0;
+        max-height: 59vh;
+    }
+
+    .ville {
+        margin: 0;
+        padding: 0;
+    }
+    .image-marseille img {
+       width: 370px;
+       height: 200px;
+    }
+
+    .image-marseille {
+        gap: 10rem;
+    }
+
+    .image-marseille .panier {
+        position: static;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .image-marseille img {
+        width: 100%;
+    }
+
+    .image-marseille {
+        gap: 2rem;
+    }
+
+    .image-marseille .panier {
+        height: auto;
+    }
+    
+}

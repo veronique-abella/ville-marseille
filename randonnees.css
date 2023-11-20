@@ -1,0 +1,43 @@
+.imgcarou {
+    object-fit: cover;
+}
+
+.imagerando {
+    gap: 1rem;
+}
+
+.image__rando {
+    transition: 0.3s;
+}
+
+.image__rando:hover {
+    transform: scale(1.2);
+}
+
+.rando {
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.imagerando img {
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 860px) {
+    .photorando {
+        width: 75%;
+    }
+
+    .photorandodeux {
+        width: 35%;
+    }
+}
+
+@media (max-width: 460px) {
+    .photorando {
+        width: 100%;
+    }
+}

@@ -1,0 +1,195 @@
+* {    
+    box-sizing: border-box;
+    padding: 0;
+    font-family: cursive;
+}
+
+h1, h2 {
+    color: #33a0ff;
+    text-shadow: 1px 1px 3px #0005ff;
+}
+
+p {
+    color: #6f6c96;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    border-radius: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    height: 3rem;
+    gap: 3rem;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #33a0ff;
+}
+
+.navbar ul li .submenu {
+    display: none;
+    position: absolute;
+    margin-top: 5rem;
+    padding: 10px;
+}
+
+.navbar ul li:hover .submenu {
+    display: block;
+}
+
+.image-container {
+    padding: 0;
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+}
+
+.submenu {
+    text-align: center;
+    margin-top: 1rem;
+    background: none;
+    margin-left: 40px;
+}
+
+.submenu li {
+    background-color: white;
+    width: 200px;
+}
+
+.nav__lien a {
+    transition: 0.2s;
+    padding: 3px 40px;
+    text-shadow: -1px 1px 8px #30acdb;
+    z-index: 2;
+}
+
+.nav__lien a:hover {
+    background: #33a0ff;
+    color: white;
+    transform: matrix(1, 0.5, -0.5, 1, 50, 20)
+}
+
+
+main {
+    margin-top: 14rem;
+}
+.marseille-welcome {
+    background-image: url(image/wlcmarseille.jpg);
+    min-height: 75vh;
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+    background-size: cover;
+}
+
+.marseille-welcome h1 {
+    min-height: 75vh;
+}
+
+#hamburger {
+    display: none;
+  }
+  
+  #hamburger-logo {
+    display: none;
+    width: 200px;
+  }
+  
+  .footer-lien {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+footer {
+    background: #33a0ff;;
+}
+  
+  #hamburger-logo,
+  .navbar {
+    transition: 0.7s;
+  }
+  
+  #hamburger:checked ~ #hamburger-logo,
+  #hamburger:checked ~ .navbar {
+    transform: translate(0);
+  }
+
+  @media screen and (max-width: 860px) {
+
+      .image-container {
+            display: flex;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marseille-site p {
+        text-align: center;
+    }
+
+  }
+
+  @media screen and (max-width: 460px) {
+
+    #hamburger-logo {
+        cursor: pointer;
+        background: #33a0ff;
+        display: block;
+        color: white;
+        text-align: right;
+        transform: translateX(-168px);
+        padding: 10px;
+      }
+
+      .navbar {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 200px;
+        transform: translateX(-200px);
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        margin: 0;
+        height: 11rem;
+      }
+
+      .image-container img {
+        display: none;
+    }
+
+      .navbar ul {
+        gap: 0;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+    footer, .footer-lien {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marseille-site p {
+        text-align: center;
+    }
+
+  }
+
+  

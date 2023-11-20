@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="marseille.css">
+    <link rel="stylesheet" href="randonnees.css">
+    <title>rando</title>
+</head>
+<body>
+    <header class="container-fluid col-lg-12 p-0">
+       <div class="menu">
+            <input type="checkbox" id="hamburger">
+            <label id="hamburger-logo" for="hamburger">☰</label>
+
+        <div class="container-fluid image-container p-0">
+            <img src="image/marseille.jpg" height="150" width="100%" alt="">
+        </div>
+        <nav class="navbar container-fluid d-flex flex-row justify-content-center bg-white">
+            <ul class="col-md-12 m-0">
+                <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0">
+                    <a href="marseille.html">Accueil</a>
+                </li>
+                <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0">
+                    <a href="plages.html">Plages</a>
+                    <ul class="submenu col-md-2">
+                        <li class="d-flex align-items-center justify-content-center col-md-1"><a href="randonnees.html">Randonnées</a></li>
+                        <li class="d-flex align-items-center justify-content-center"><a href="parcs.html">Parcs</a></li>
+                        <li class="d-flex align-items-center justify-content-center rounded-5 rounded-top-0"><a href="musees.html">Musées</a></li>
+                    </ul>
+                </li>
+                <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0"><a href="histoire.html">Histoire</a></li>
+                <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+        <main class="container">
+            <div class="container p-0">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/rando/sormiou.jpg" class=" imgcarou d-block w-100" height="400px" alt="img-1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/rando/envau.jpg" class="imgcarou d-block w-100" height="400px" alt="img-2">
+        
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/rando/portmiou.jpg" class="imgcarou d-block w-100 " height="400px" alt="img-3">
+                        </div>
+        
+                        <div class="carousel-item">
+                            <img src="image/rando/sugiton.jpg" class="imgcarou d-block w-100 " height="400px" alt="img-4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/rando/stvictoire.jpg" class="imgcarou d-block w-100 " height="400px" alt="img-4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/rando/candelle.jpg" class="imgcarou d-block w-100 " height="400px" alt="img-4">
+                        </div>
+        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+              <section class="container mt-5 mb-5">
+                <h1 class="text-center">Les différentes randonnées</h1>
+              </section>
+            <div class="container rando col-lg-12 border border-top-0">
+                <div>
+                    <h2 class="text-center">Sormiou</h2>
+                </div>
+                <div class="container-fluid imagerando d-flex flex-wrap justify-content-center mt-3 mb-5">
+                    <img class="image__rando img-fluid" src="image/rando/sormioutest.jpg" alt="">
+                    <img class="image__rando img-fluid" src="image/rando/sormiou3.jpg" alt="">
+                    <img class="image__rando img-fluid" src="image/rando/sormiou2.jpg" height="342px" alt="">
+                </div>
+                <article class="text-center">
+                        <p><b>(D/A)</b> Du parking, monter par la route goudronnée jusqu'au Col de Sormiou (vous pouvez apercevoir entre deux blocs rocheux le Stade Vélodrome).</p>
+                        
+                        <p><b>(1) Au col</b>, prendre à gauche et suivre le GR®98 (balisage Blanc et Rouge). Quitter la piste à gauche par deux fois pour couper un virage et retrouver la piste. Reprendre en face sur le sentier qui arrive au Col des Baumettes. La vue sur la calanque de Sormiou est très belle.</p>
+                        
+                        <p><b>(2) Depuis le col</b>, prendre le marquage Rouge à droite (Attention ! c'est un carrefour de plusieurs chemins GR®51, GR®98 et marquage Bleu). Descendre jusqu'à la Calanque de Sormiou par un petit chemin pierreux qui se termine entre les maison et les voitures garées.</p>
+                        
+                        <p><b>(3) À la plage</b>, possibilité de se rafraîchir en se baignant ou en prenant un petit verre au restaurant. Prendre l'allée entre l'alignement des anciennes cabanes de pêcheurs et remonter à gauche par un chemin (marquage Marron) qui longe la route d'accès à la calanque. Couper plusieurs fois la route en suivant toujours le chemin principal orienté Nord-Ouest qui rejoint le Col de Sormiou.</p>
+                        
+                        <p><b>(4) Descente du col</b> par la même route jusqu'au point de départ</p>
+                        <a href="https://www.komoot.com/fr-fr/smarttour/e1005242574/calanque-de-sormiou-boucle-dans-le-parc-national-des-calanques?ref=wdd" target="_blank"><img class="photorandodeux" src="image/rando/randosormiou.png" alt=""></a>
+                </article>
+            </div>
+
+            <div class="container rando col-lg-12 mt-5 mb-5">
+                <div>
+                    <h2 class="text-center">En-Vau</h2>
+                </div>
+                <div class="container-fluid imagerando d-flex flex-wrap justify-content-center mb-5">
+                    <img class="image__rando" src="image/rando/envau2.jpg" alt="">
+                    <img class="image__rando photorando" src="image/rando/envau.jpg" alt="">
+                    <img class="image__rando" src="image/rando/envau3.jpg" alt="">
+                </div>
+                <article class="text-center">
+                    <p><b>(D/A) Le chemin débute à droite du parking.</b> Après quelques centaines de mètres de plat, le chemin part en descente puis coupe à plusieurs reprises la Route Gaston Rébuffat. Suivre le sentier Rouge direction Calanque d'En-Vau jusqu'au Col de la Gardiole.
+                        
+                       <p><b>(1) Suivre à gauche,</b> le sentier Jaune et Bleu direction La Fontasse jusqu'à la citerne.</p>
+                        
+                       <p><b>(2)</b> Une variante qui rallonge un peu consiste à descendre dans la calanque de Port-Miou.
+                        Quitter la piste principale et suivre, à droite, un petit sentier parallèle qui longe la Calanque de Port Miou sur les hauteurs. Rejoindre le GR® et le suivre durant 100 m.</p>
+                        
+                        <p><b>(3)</b> Un petit détour de 100 m vaut le coup pour voir le Trou du Souffleur.
+                        La quitter momentanément et descendre dans la Calanque de Port-Pin, Suivre la direction Calanque de Port-Pin par Trou Souffleur, et la croix Rouge et Blanche.</p>
+                        
+                        <p><b>(4) Calanque de Port-Pin</b>. Idéal pour se baigner et faire une pause. Remonter par un chemin à gauche jusqu'au GR®.</p>
+                        
+                        <p><b>(5) Le suivre ensuite,</b> à gauche, en montée régulière jusqu'au Portalet d'en Vau (GR® Blanc et Rouge), puis rejoindre une piste.</p>
+                        
+                        <p><b>(6) Partir à gauche</b> sur celle-ci par une descente assez abrupte dans le Vallon d'en Vau jusqu'à la calanque d'En-Vau.</p>
+                        
+                        <p><b>(7) Nouveau site</b> idéal pour se baigner et même plonger des rochers. La remontée se fait par la piste Rouge jusqu'à la bifurcation de l'aller.</p>
+                        
+                        <p><b>(6) Continuer</b> dans le Vallon d'en Vau, toujours tout droit sur la piste qui arrive près de la Maison Forestière de la Gardiole.</p>
+                        
+                        <p><b>(8) Partir à gauche</b> et rejoindre le Col de la Gardiole.</p>
+                    <a href="https://www.komoot.com/fr-fr/smarttour/e1004941587/calanque-de-port-miou-a-la-calanque-den-vau-boucle-dans-le-parc-national-des-calanques?tour_origin=smart_tour_search" target="_blank"><img class="photorandodeux" src="image/rando/randoenvau.png" alt=""></a>
+                </article>
+            </div>
+
+            <div class="container rando col-lg-12 mt-5 mb-5">
+                <div>
+                    <h2 class="text-center">Sugiton</h2>
+                </div>
+                <div class="container-fluid imagerando d-flex flex-wrap justify-content-center mb-5">
+                    <img class="image__rando" class="image__rando" src="image/rando/sugiton2.jpg" alt="">
+                    <img class="image__rando photorando" class="image__rando" src="image/rando/sugiton4.jpg" alt="">
+                    <img class="image__rando" class="image__rando" src="image/rando/sugiton3.jpg" alt="">
+                </div>
+                <article class="text-center">
+                    <p><b>(1) Prendre le chemin</b> au bout du parking avec une barrière et suivre itinéraire balise Bleue. Laisser plus loin un chemin à gauche.</p>
+
+                        <p><b>(2) A l'embranchement</b>, rester sur le chemin et continuer tout droit avec le balisage Bleu jusqu'au prochain embranchement avec des panneaux indicateurs en bois.</p>
+                        
+                        <p><b>(3) Là prendre à droite</b> sur 50m et suivre le petit chemin sur la gauche balise Rouge "6b" en pointillés.</p>
+                        
+                       <p><b>(4) Descendre</b> le chemin en suivant le balisage. Après un point de vue avec un muret, quelques mètres plus bas, prendre le petit chemin à droite balisé et indiquant chemin direct calanque Sugiton et descendre jusqu'à la calanque.</p>
+                        
+                        <p><b>(5) Remonter</b> de la calanque pour retrouver le chemin et partir sur la gauche vers une autre calanque balisage Rouge. Rester sur le haut en suivant le balisage pour arriver à une échelle. L'emprunter pour poursuivre le balisage Rouge. Continuer sur le chemin avec un petit passage raide (Attention passage pouvant devenir délicat surtout par temps humide). Laisser partir un chemin à droite pour arriver à la calanque de Morgiou et le port.</p>
+                        
+                        <p><b>(6) Traverser le village de Morgiou</b> par la route et suivre balisage Rouge. A la sortie du village prendre le chemin à droite qui longe la route, balisé Rouge jusqu'à un embranchement sur la droite.</p>
+                        
+                        <p><b>(7) Prendre le balisage Jaune</b> "7" à droite et remonter le col par ce chemin balisé pour arriver à un autre embranchement.</p>
+                        <a href="https://www.komoot.com/fr-fr/smarttour/6989972?tour_origin=smart_tour_search" target="_blank"><img class="photorandodeux" src="image/rando/randosugiton.png" alt=""></a>
+                    </article>
+            </div>
+
+            <div class="container rando col-lg-12 mt-5 mb-5">
+                <div>
+                    <h2 class="text-center">Sainte-Victoire</h2>
+                </div>
+                <div class="container-fluid imagerando d-flex flex-wrap justify-content-center mb-5">
+                    <img class="image__rando" src="image/rando/stvictoire2.jpg" alt="">
+                    <img class="image__rando photorando" src="image/rando/stvictoire.jpg" alt="">
+                    <img class="image__rando" src="image/rando/stvictoire3.jpg" alt="">
+                </div>
+                <article class="text-center">
+                    <p><b>(D/A) Du parking, face à la Saint-Victoire, traverser la route,</b> les balisages se trouvent sur un rocher.
+                        Suivre la direction Refuge Baudino - Chapelle Saint-Ser par le tracé Noir (Garagaï assez difficile), qui part à droite. Laisser les trois prochains chemins qui partent à gauche, puis le balisage fait un virage et s'oriente Nord-Est droit vers la falaise. 150m plus loin, poursuivre la montée avec un chemin venant de droite.</p>
+                        
+                        <p><b>(1) À un croisement,</b> laisser le chemin de gauche et celui d'en face, pour partir à droite en suivant le balisage Marron. Le sentier va descendre dans un petit vallon puis remonter en face. Dans la montée un cairn montre un petit sentier à droite qui permet de faire un aller-retour jusqu'à une grotte. Poursuivre le sentier qui alterne portions plates et montantes jusqu'à un croisement.
+                        Suivre le sentier qui vire à gauche toujours sur le balisage Marron. Après quelques mètres plein Nord, le sentier s'oriente à gauche (Ouest) puis opère un virage à droite vers la Marbrière. Juste avant celle-ci, un cairn invite à partir à gauche pour la contourner par le dessus. Arrivé sur un replat, le sentier continue puis franchit un petit ressaut rocheux orienté Nord (Pas du Clapier) et aboutit à un gros cairn sur une nouvelle portion plate.</p>
+                        
+                        <p><b>(2) Prendre la sente à gauche</b> en suivant un balisage Vert qui monte franchement vers la paroi. De nombreux passages pour lesquels il faut mettre les mains jalonnent la montée sans jamais être très dangereux ni trop exposés. Une dernière faille oblique permet de parvenir sur les crêtes.</p>
+                        
+                        <p><b>(3) Admirer la vue</b> et poursuivre à gauche sur le GR®9 (Rouge-Blanc). Le balisage du GR® se décale un peu des crêtes par moment ; ne pas hésiter à s'en éloigner et faire quelques pas sur la gauche pour profiter pleinement de la vue, mais il faut être très prudent. Passer le Signal (969m) et poursuivre. Prendre une trace balisée Rouge-Blanc en pointillés qui permet de monter à gauche vers la Croix de Provence.</p>
+                        
+                        <p><b>(4) Redescendre en passant à droite de la cabane,</b> retrouver le GR® qui vire à gauche pour passer au-dessus du Prieuré de la Sainte-Victoire puis le rejoindre.</p>
+                        
+                        <p><b>(5) Faire une petite visite des lieux,</b> puis reprendre la descente par la gauche sur le GR®. Environ 200m plus bas, à un croisement, laisser partir le GR® à droite et continuer la descente tout droit sur le balisage Bleu (Bimont). Il chemine sur un sentier pierreux et se rapproche de la ligne de crête. Après avoir franchi un mur, laisser partir le sentier à droite et viser un gros cairn.</p>
+                        
+                        <p><b>(6) Poursuivre à gauche sur le sentier balisé en Rouge</b> qui descend. Franchir un petit passage de désescalade (Pas du Berger) puis continuer et retrouver un rocher qui marque la jonction avec le tracé Rouge en pointillés qui vient de droite.
+                        Continuer la descente à gauche pour arriver 600m plus bas à un croisement, tout près du Refuge de Cézanne.</p>
+                        
+                        <p><b>(7) Prendre à gauche en direction de l’Oppidum Untinos et Maison de la Sainte-Victoire.</b> Quelques mètres plus loin, profiter pour visiter le Refuge Cézanne.</p>
+                    <a href="https://www.komoot.com/fr-fr/smarttour/232008?tour_origin=smart_tour_search" target="_blank"><img class="photorandodeux" src="image/rando/randostvictoire.png" alt=""></a>
+                </article>
+            </div>
+        </main>
+
+        <footer class="container-fluid d-flex justify-content-around mt-3">
+            <ul class="footer-lien">
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" aria-label="" href="marseille.html">Accueil</a></li>
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="plages.html">Plages</a></li>
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="randonnees.html">Randonnées</a></li>
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="parcs.html">Parcs</a></li>
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="musees.html">Musées</a></li>
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="histoire.html">Histoire</a></li>
+                <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="marseille-site">
+                <div>
+                    <p>Site sur les activitées de la ville de Marseille</p>
+                </div>
+                <div class="icone-footer d-flex align-items-center justify-content-around">
+                    <a href="https://www.instagram.com/villemarseille/?hl=fr" target="_blank"><img src="image/insta.webp" width="40" height="40" alt="insta marseille"></a>
+                    <a href="https://www.facebook.com/marseilleville/?locale=fr_FR" target="_blank"><img src="image/fb.webp" width="40" height="40" alt="facebook marseille"></a>
+                </div>
+            </div>
+        </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+    
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+</body>
+</html>

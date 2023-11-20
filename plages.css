@@ -1,0 +1,108 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 210px;
+}
+
+header {
+    scroll-snap-align: start;
+    transition: transform 0.5s ease;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+footer {
+    scroll-snap-align: start;
+}
+
+main {
+    margin-top: 14rem;
+}
+
+.plages {
+    gap: 2rem;
+}
+
+.plages img {
+    border-radius: 20px;
+}
+
+.marseille-sormiou {
+    background-image: url(image/plage/sormiou.jpg);
+    min-height: 75vh;
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+}
+
+.marseille-sormiou h1 {
+    min-height: 75vh;
+    padding-top: 5rem;
+}
+
+.intro {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.image-plage {
+    gap: 1rem;
+}
+
+.image-plage img {
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.image-plage img:hover {
+    transform: scale(1.1);
+}
+
+.plage {
+    margin-left: 0;
+    margin-right: 0;
+    scroll-snap-align: start;
+}
+
+.imgplage {
+    height: 230px;
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+    border-radius: 25px;
+}
+
+.imgplage img {
+    transition: 0.2s;
+}
+.imgplage img:hover {
+    transform: scale(1.2);
+    opacity: 0.25;
+}
+
+.overlay-text {
+    position: relative;
+    width: 0;
+    left: 75px;
+    top: -135px;
+    opacity: 0;
+    color: #33a0ff;
+    text-decoration: none;
+    text-align: center;
+    transition: opacity 0.3s ease;
+    font-size: xx-large;
+    background: 0.25;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imgplage:hover .overlay-text {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 460px) {
+   .plagedeux {
+    flex-direction: column-reverse;
+   }
+}

@@ -1,0 +1,28 @@
+.contact-contenair {
+    background-image: url(images/few.avif);
+}
+
+.formulaire {
+    min-height: 70vh;
+    background: linear-gradient(45deg, #2f78d0, #0000009e, #2f78d0);
+    box-shadow: 5px 10px 20px 4px #000000;
+    border-radius: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #33a0ff;;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main {
+    background: url(image/marseillecontact.jpg);
+    background-size: contain;
+}
+
+.sub {
+    background: #33a0ff;
+}

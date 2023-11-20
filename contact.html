@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="marseille.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="container-fluid col-lg-12 p-0">
+        <div class="menu">
+             <input type="checkbox" id="hamburger">
+             <label id="hamburger-logo" for="hamburger">☰</label>
+ 
+         <div class="container-fluid image-container p-0">
+             <img src="image/marseille.jpg" height="150" width="100%" alt="">
+         </div>
+         <nav class="navbar container-fluid d-flex flex-row justify-content-center bg-white">
+             <ul class="col-md-12 m-0">
+                 <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0">
+                    <a href="marseille.html">Accueil</a>
+                 </li>
+                 <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0">
+                     <a href="plages.html">Plages</a>
+                     <ul class="submenu col-md-2">
+                         <li class="d-flex align-items-center justify-content-center col-md-1"><a href="randonnees.html">Randonnées</a></li>
+                         <li class="d-flex align-items-center justify-content-center"><a href="parcs.html">Parcs</a></li>
+                         <li class="d-flex align-items-center justify-content-center rounded-5 rounded-top-0"><a href="musees.html">Musées</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0"><a href="histoire.html">Histoire</a></li>
+                 <li class="nav__lien d-flex align-items-center justify-content-center col-md-1 m-0"><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+     </div>
+ </header>
+    <main class="container-fluid d-flex justify-content-center flex-column align-items-center p-0">
+        <h1 class="text-center mt-5 mb-5">Formulaire contact</h1>
+        <div class="d-flex flex-wrap flex-column col-lg-4">
+            <div class="formulaire d-flex align-items-center justify-content-center">
+                <form class="form-contact" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" required>
+            
+                <label for="prenom">Prénom :</label>
+                <input type="text" name="prenom" id="prenom" required>
+    
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" name="pseudo" id="pseudo" required>
+                
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+            
+                <div>
+                <input type="checkbox" name="accepte" id="accepte" required>
+                <label class="accept" for="accepte">J'accepte les conditions d'utilisation</label>
+                </div>
+            
+                <input class="sub" type="submit" value="Valider">
+                </form>
+            </div> 
+        </div>
+    </main>
+    <footer class="container-fluid d-flex justify-content-around mt-3">
+        <ul class="footer-lien">
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" aria-label="" href="marseille.html">Accueil</a></li>
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="plages.html">Plages</a></li>
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="randonnees.html">Randonnées</a></li>
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="parcs.html">Parcs</a></li>
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="musees.html">Musées</a></li>
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="histoire.html">Histoire</a></li>
+            <li class="navbar__link d-flex"><a class="text-white text-decoration-none" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="marseille-site">
+            <div>
+                <p>Site sur les activitées de la ville de Marseille</p>
+            </div>
+            <div class="icone-footer d-flex align-items-center justify-content-around">
+                <a href="https://www.instagram.com/villemarseille/?hl=fr" target="_blank"><img src="image/insta.webp" width="40" height="40" alt="insta marseille"></a>
+                <a href="https://www.facebook.com/marseilleville/?locale=fr_FR" target="_blank"><img src="image/fb.webp" width="40" height="40" alt="facebook marseille"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
